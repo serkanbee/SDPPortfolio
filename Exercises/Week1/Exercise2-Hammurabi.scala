@@ -205,6 +205,8 @@ measured in bushels. The following will help you in your decisions:
         //How much land will cost next year?
         pricePerAcre = Random.nextInt(17&23)+1
 
+        //
+
       }//end of while loop
 
 
@@ -212,13 +214,6 @@ measured in bushels. The following will help you in your decisions:
 
 
     hammurabi() // function called here
-
-
-
-
-
-
-
 
 
 
