@@ -1,0 +1,3 @@
+addSbtPlugin("org.scalastyle" %% "scalastyle-sbt-plugin" % "0.8.0")
+/Users/Serkan/Desktop/week04/addSbtPlugin("org.scalastyle" %% "scalastyle-sbt-plugin" % "0.8.0")
+sbt scalastyleGenerateConfig
