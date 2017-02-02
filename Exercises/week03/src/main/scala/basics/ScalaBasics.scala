@@ -105,12 +105,12 @@ object ScalaBasics {
 
   //integer.MAX_VALUE = 2147483647
   def minFor(r: Array[Int]): Int = {
-    var min = Integer.MAX_VALUE
+    var minimum = Integer.MAX_VALUE
     for(i <- r){
-      val set = i :: min :: Nil
-      min = set.min
+      val set = i :: minimum :: Nil
+      minimum = set.min
     }
-    min
+    minimum
   }
 
   /**
@@ -227,6 +227,6 @@ object ScalaBasics {
    * @return a map from words to the number of times that word was seen
    */
   def wordCounter(lines: Array[String]): Map[String, Int] = {
-    lines.flatMap(_.split(' ')).groupBy(w => w).mapValues(a => a.length)
+    lines.flatMap(_.split(' ')).groupBy(word => word).mapValues(item => item.length)
   }
 }
